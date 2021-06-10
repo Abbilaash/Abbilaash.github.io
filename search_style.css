@@ -3,7 +3,7 @@
 	padding: 0;
 }
 .search-box{
-	margin-top: 230px;
+	margin-top: 190px;
 	position: center;
 	align-items: center;
 	margin-left:400px;
@@ -12,6 +12,7 @@
 .header ul{
 	display: inline-flex;
 	margin: 50px;
+	flex-direction: right;
 }
 .header ul li{
 	list-style: none;
@@ -29,4 +30,36 @@
 	border-radius: 20px;
 	border: thin solid black;
 }
+.img .amazon{
+	height: 98px;
+	width: 120px;
+	border: thin solid black;
+	border-radius: 20px;
+}
+.img .gmail{
+	height: 98px;
+	width: 120px;
+	border: thin solid black;
+	border-radius: 20px;
+}
+.img .github{
+	height: 98px;
+	width: 120px;
+	border: thin solid black;
+	border-radius: 20px;
+}
+.img{
+	display: inline-flex;
+	flex-direction: row;
+	margin-left: -90px;
+}
+.top{
+	height: 30px;
+	width: 30px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+	border-radius: 3px;
+}
+
 
