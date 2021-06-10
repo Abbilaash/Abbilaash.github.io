@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<title>code creator engine</title>
+</head>
+
+<style type="text/css">
+	
+	* {
+	margin:0;
+	padding: 0;
+	background-color: black;
+}
+
+.search-box{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background-color: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0 6px;
+}
+
+.search-btn{
+	color:black;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search-box:hover > .search-btn{
+	background-color: black;
+}
+
+.search-txt{
+	border: none;
+	background:none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+
+.header ul{
+	display: inline-flex;
+	margin: 50px;
+}
+
+.header ul li{
+	list-style: none;
+	margin: 0 20px;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+	padding-right: 10px;
+}
+.btn{
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	border:thin solid white;
+}
+
+</style>
+
+<body>
+	<div class="search-box">
+		<input class="search-txt" type="search" name="" autocomplete="off" spellcheck="false" placeholder="search for..." value="" id="search" onchange="openPage()">
+		<script type="text/javascript">
+			function openPage(){
+				var x=document.getElementById("search").value;
+
+				if (x==='google'){
+					window.open("https://www.google.com/")
+				}
+				if (x==='github') {
+					window.open("https://www.github.com/")
+				}
+				if (x==='notes'){
+					window.open("E:\class  11")
+				}
+				if (x==='google drive'){
+					window.open("https://www.google.com/search?q=google+drive&oq=google+drive&aqs=chrome..69i57j0i271l2j69i64j69i60l3.3226j0j7&sourceid=chrome&ie=UTF-8")
+				}
+				if (x==='w3 school'){
+					window.open("https://www.w3schools.com/")
+				}
+				if (x==='gmail'){
+					window.open("https://mail.google.com/mail/u/0/#inbox")
+				}
+				if (x==='youtube') {
+					window.open("https://www.youtube.com/")
+				}
+				if (x==='google '){
+					window.open("https://www.google.com/")
+				}
+				if (x==='youtube '){
+					window.open("https://www.youtube.com/")
+				}
+				if (x==='devdocs'){
+					window.open("https://devdocs.io/")
+				}
+				if (x==='devdocs.io'){
+					window.open("https://devdocs.io/")
+				}
+				
+
+			}
+		</script>
+
+		<a class="search-btn" href="#">
+			<i class="fas fa-search"></i>
+		</a>
+	</div>
+	<div class="header">
+		<ul>
+			<li><button class="btn"><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></button></li>
+			<li><button class="btn"><a href="https://www.google.com/">Google</a></button></li>
+			<li><button class="btn"><a href="https://github.com/">Github</a></button></li>
+		</ul>
+	</div>
+</body>
+</html>
