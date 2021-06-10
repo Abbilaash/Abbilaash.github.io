@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.search-box{
+	margin-top: 230px;
+	position: center;
+	align-items: center;
+	margin-left:400px;
+	padding: 0;
+}
+.header ul{
+	display: inline-flex;
+	margin: 50px;
+}
+.header ul li{
+	list-style: none;
+	margin: 0 20px;
+	color: white;
+	cursor: pointer;
+	margin-top: 10px;
+	padding-right: 10px;
+	margin-left: 80px;
+	background-color: transparent;
+}
+.btn{
+	height: 30px;
+	width: 100px;
+	border-radius: 20px;
+	border: thin solid black;
+}
+
